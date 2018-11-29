@@ -1,19 +1,21 @@
 package com.law.mongo;
-
+/*
+*javabeanéƒ¨åˆ†
+*/
 public class FieldInit {
-	private String name;    //ÎÄµµÃû³Æ
-	private String object;  //Î¥·¨¶ÔÏó
-	private String type;    //Î¥·¨ÀàĞÍ
-	private String range1;   //Ëù´¦Ë®Óò1
+	private String name;    //æ–‡æ¡£åç§°
+	private String object;  //è¿æ³•å¯¹è±¡
+	private String type;    //è¿æ³•ç±»å‹
+	private String range1;   //æ‰€å¤„æ°´åŸŸ1
 	private String range2;
 	private String range3;
-	private String authority;       //Ö°ÔğºÍÈ¨ÏŞ
-	private String law;             //·¨ÂÉÒÀ¾İ
-	private String responsibility;  //·¨ÂÉÔğÈÎ
-	private String mean;            //Ö´·¨ÊÖ¶Î
-	private String regulation;      //Ö´·¨¹æ·¶
-	private String staff;           //Ö´·¨ÈËÔ±
-	private String way;             //Ö´·¨·½Ê½
+	private String authority;       //èŒè´£å’Œæƒé™
+	private String law;             //æ³•å¾‹ä¾æ®
+	private String responsibility;  //æ³•å¾‹è´£ä»»
+	private String mean;            //æ‰§æ³•æ‰‹æ®µ
+	private String regulation;      //æ‰§æ³•è§„èŒƒ
+	private String staff;           //æ‰§æ³•äººå‘˜
+	private String way;             //æ‰§æ³•æ–¹å¼
 	
 	public String getName() {
 		return name;
